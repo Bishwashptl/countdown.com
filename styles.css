@@ -45,7 +45,6 @@
     position: relative;
     font-weight: bold;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     animation-name: animateCount;
     animation-iteration-count: infinite;
     animation-duration: 0.1s;
@@ -60,6 +59,7 @@
     padding: 2px;
     border: solid rgb(219, 130, 79) 2px;
     margin-bottom: 10px;
+    outline: none;
 
 }
 
@@ -81,6 +81,8 @@ body {
 #btn:hover {
     border: none;
     color: black;
+    background-color: orange;
+    color: rgb(206, 219, 145);
     box-shadow: 0 4px 5px 0 rgba(58, 57, 57, 0.2), 0 6px 5px 0 rgba(56, 55, 55, 0.19);
 }
 
